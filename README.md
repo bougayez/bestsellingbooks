@@ -1,5 +1,5 @@
 # Best Selling Books
-A website to find best selling books in the current week.
+A website to find best selling books in the current week. Built using C++ Crow framework as the web server.
 
 ## Where to get your API key?
 To get the API key, go to this [website](https://developer.nytimes.com/docs/books-product/1/overview),
