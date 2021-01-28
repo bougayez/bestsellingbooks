@@ -6,6 +6,20 @@ To get the API key, go to this [website](https://developer.nytimes.com/docs/book
 create an account and get your key.
 
 ## Required libraries
-The required liraries are:
 * C++ CROW : [Github](https://github.com/ipkn/crow)
 * JSONCONS : [Github](https://github.com/danielaparker/jsoncons)
+
+## Running
+To run this project :
+  1. Download/clone the project files
+  2. Install GNU compiler on your machine
+  3. Install CMAKE on your machine
+  4. Go to the project directory, then to ``` build ``` directory
+  5. Run ``` cmake .. ```
+  6. Run ``` make ```
+  7. Run ``` ./bestsellingbooks ```
+  8. Now the web server started, open a browser and type in ``` localhost:18080 ```
+  
+## Using Docker
+You can use Docker by building the file ``` Dockerfile ```
+
