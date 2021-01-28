@@ -91,7 +91,11 @@ int main(int argc, char* argv[])
   ([](const request& req, response& res){
     auto category = req.url_params.get("category");
     ostringstream os1;
-    const string api_key = "YOUR API KEY HERE";
+    /*
+     YOU CAN GET YOUR API KEY FROM HERE : 
+     https://developer.nytimes.com/docs/books-product/1/overview
+    */
+    const string api_key = "YOUR API KEY";
     const string fixed_path = "http://api.nytimes.com/svc/books/v3/lists/current/";
     if(category != "")
     {
