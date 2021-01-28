@@ -12,12 +12,13 @@ create an account and get your key.
 ## Running
 To run this project :
   1. Download/clone the project files
+  2. Copy the file ``` jsoncons ``` to your include files folder or ``` usr/include ``` in linux
   2. Install GNU compiler on your machine
   3. Install CMAKE on your machine
   4. Go to the project directory, then to ``` build ``` directory
-  5. Run ``` cmake .. ```
-  6. Run ``` make ```
-  7. Run ``` ./bestsellingbooks ```
+  5. Run ``` cmake .. ``` in the terminal 
+  6. Run ``` make ``` in the terminal
+  7. Run ``` ./bestsellingbooks ``` in the terminal
   8. Now the web server started, open a browser and type in ``` localhost:18080 ```
   
 ## Using Docker
